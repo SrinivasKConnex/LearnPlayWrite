@@ -9,7 +9,8 @@ import com.microsoft.playwright.BrowserType.LaunchOptions;
 public class learnPlaywrite1 {
 	public static void main(String[] args) throws InterruptedException {
 		Playwright playwright = Playwright.create();
-
+//git lern
+		
 		Browser browser = playwright.chromium().launch(new LaunchOptions().setHeadless(false));
 
 		Page page = browser.newPage();
